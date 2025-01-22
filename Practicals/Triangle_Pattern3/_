@@ -1,0 +1,19 @@
+import java.io.*;
+class code7 {
+	public static void main(String[] s) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		System.out.print("Enter Number of Rows : ");
+		int Row = Integer.parseInt(br.readLine());
+		for(int i = Row ; i >= 1 ; i--) {
+				int ch = 95 + i;
+				int num = i;
+			for(int j = 1 ; j <= i ; ch--,num--,j++) {
+				if(j%2==0)
+					System.out.print((char)ch + "  ");
+				else
+					System.out.print(num + "  ");
+			}
+			System.out.println();
+		}
+	}
+}

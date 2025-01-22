@@ -1,0 +1,18 @@
+class Prog6 {
+	public static void main(String[] s) {
+		char ch =97;
+		if(ch=='a')
+		{
+			System.out.println(ch-- + x);
+		}
+		else
+		{
+			System.out.println(ch++);
+		}
+		else
+		{
+			System.out.println("HELLO !!!");
+		}
+		System.out.println(ch+=5);
+	}
+}
